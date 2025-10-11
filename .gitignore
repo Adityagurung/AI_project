@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data
+*.csv
+*.json
+*.pkl
+phase1-foundation/data/raw/*
+phase1-foundation/data/processed/*
+!phase1-foundation/data/raw/.gitkeep
+!phase1-foundation/data/processed/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Qdrant
+qdrant_storage/
+
+# OS
+.DS_Store
+Thumbs.db
