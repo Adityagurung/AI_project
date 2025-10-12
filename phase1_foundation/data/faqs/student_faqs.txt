@@ -1,0 +1,59 @@
+Question: What are the prerequisites for the AI course?
+Answer: You need basic Python programming knowledge, understanding of linear algebra and calculus, and familiarity with basic statistics. Prior machine learning experience is helpful but not required.
+
+Question: How long does it take to complete the course?
+Answer: The course typically takes 15 days if you dedicate 6 hours per day. You can adjust the pace based on your schedule and learning speed.
+
+Question: What tools and software do I need?
+Answer: You'll need Python 3.10+, VS Code (or any code editor), OpenAI API key, Git for version control, and about 10GB of free disk space.
+
+Question: Is there any certification provided?
+Answer: Yes, upon successful completion of all 6 phases and the capstone project, you'll receive a certificate of completion. The certificate includes your project portfolio.
+
+Question: Can I work on my own project ideas?
+Answer: Absolutely! The capstone project (Days 14-15) is specifically designed for you to build your own custom AI application. We provide guidance while you implement your unique idea.
+
+Question: What is the cost of the course?
+Answer: The course materials are free. You'll only need to pay for OpenAI API usage (approximately $5-10 for the entire course) and optionally cloud hosting for deployment.
+
+Question: Do I need a GPU for this course?
+Answer: No, a GPU is not required. We use OpenAI's API for all AI operations, which runs on their servers. A regular laptop with 8GB RAM is sufficient.
+
+Question: What kind of projects will I build?
+Answer: You'll build 6+ projects including: FAQ Assistant, YouTube Summarizer, Research Agent, Django Site Constructor, and a custom capstone project of your choice.
+
+Question: Is there support available if I get stuck?
+Answer: Yes, you can use the discussion forums, review the troubleshooting guides, and document your issues. Many common problems are addressed in the documentation.
+
+Question: What programming languages are used?
+Answer: The course primarily uses Python 3.10+. You'll also work with some HTML/CSS for web interfaces and bash scripting for deployment.
+
+Question: Can I complete this course part-time?
+Answer: Yes! While the course is designed for 6 hours daily over 15 days, you can extend it to 30 days with 3 hours daily, or any schedule that works for you.
+
+Question: What happens after I complete the course?
+Answer: You'll have a portfolio of 6+ working AI applications, understanding of production AI systems, and the skills to build your own AI projects. You can showcase these to employers or clients.
+
+Question: Are there any prerequisites for the capstone project?
+Answer: You should complete Phases 1-5 before starting the capstone. This ensures you have all the necessary skills in RAG, agents, testing, and monitoring.
+
+Question: How do I access the course materials?
+Answer: All materials are available in the GitHub repository. Clone the repo, follow the setup instructions, and begin with Day 1.
+
+Question: What's the difference between RAG and fine-tuning?
+Answer: RAG retrieves relevant information from a knowledge base to answer queries, while fine-tuning adjusts the model's weights with custom training data. RAG is more flexible and cost-effective for most use cases.
+
+Question: Can I use different LLM providers besides OpenAI?
+Answer: Yes! The architecture is designed to be provider-agnostic. You can modify the code to use Anthropic Claude, Google's models, or open-source alternatives like Llama.
+
+Question: What monitoring tools will I learn?
+Answer: You'll learn to use Grafana for metrics dashboards, LangWatch for AI observability, and Evidently for data quality monitoring - all industry-standard tools.
+
+Question: Is this course suitable for beginners?
+Answer: If you have basic Python knowledge and are willing to learn, yes! The course starts with fundamentals and progressively increases in complexity. Each concept is well-explained with comments.
+
+Question: How much API usage does each project consume?
+Answer: Day 1 uses ~$0.20, Days 2-3 ~$1, Days 4-9 ~$2, Days 10-15 ~$5. Total is approximately $8-10 for the entire course with moderate testing.
+
+Question: What if I want to deploy my project to production?
+Answer: Phase 5 covers deployment strategies. You'll learn to deploy locally first, then optionally to cloud platforms like AWS, Azure, or GCP with proper monitoring.
