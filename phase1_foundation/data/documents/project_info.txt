@@ -1,0 +1,63 @@
+AI Capstone Project - Overview
+
+Project Name: End-to-End AI Application Development
+Duration: 15 Days
+Daily Commitment: 6 Hours
+
+Project Phases:
+
+Phase 1: Foundation (Days 1-3)
+Build RAG pipeline and three mini-projects:
+- FAQ Assistant with conversation memory
+- YouTube Podcast Summarizer
+- Internal Docs Assistant
+Key technologies: OpenAI, Qdrant, LangChain
+
+Phase 2: AI Agents (Days 4-6)
+Implement agentic behavior:
+- Function calling and tool use
+- OpenAI Agents SDK
+- PydanticAI framework
+- Model-Context Protocol (MCP)
+
+Phase 3: Evaluation & Testing (Days 7-9)
+Build comprehensive testing framework:
+- Gold standard datasets
+- Retrieval metrics (Precision, Recall, MRR, NDCG)
+- LLM-as-a-Judge
+- Test-driven prompt engineering
+
+Phase 4: Coding Agent (Days 10-11)
+Create a Django site constructor:
+- Automated code generation
+- Full project scaffolding
+- Multi-file coordination
+
+Phase 5: Production & Monitoring (Days 12-13)
+Deploy with full observability:
+- Grafana dashboards for metrics
+- LangWatch for AI monitoring
+- Evidently for data quality
+- Guardrails for safety
+
+Phase 6: Capstone Project (Days 14-15)
+Build custom AI application:
+- Design your own project
+- Apply all learned concepts
+- Production-ready code
+
+Technical Stack:
+- Python 3.10+
+- OpenAI API (GPT-3.5/4)
+- Qdrant Vector Database
+- FastAPI for web services
+
+Budget: $5-10 for OpenAI API usage
+Requirements: Basic Python, VS Code, OpenAI API key
+
+Learning Outcomes:
+- Master RAG architecture
+- Build AI agents
+- Production deployment
+- Testing and monitoring
+- Portfolio of 6+ projects

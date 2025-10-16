@@ -1,0 +1,54 @@
+Python Best Practices for AI Projects
+
+Code Organization:
+1. Use virtual environments for dependency isolation
+2. Follow PEP 8 style guide for consistent formatting
+3. Organize code into modules and packages
+4. Keep functions small and focused
+5. Use meaningful variable and function names
+
+Error Handling:
+- Always use try-except blocks for API calls
+- Log errors with proper context
+- Fail gracefully with user-friendly messages
+- Use specific exception types
+- Clean up resources with context managers
+
+Environment Variables:
+- Never hardcode API keys or secrets
+- Use python-dotenv for local development
+- Store sensitive data in .env files
+- Add .env to .gitignore
+- Use environment variables in production
+
+Type Hints:
+- Add type hints to function signatures
+- Use typing module for complex types
+- Helps with IDE autocomplete
+- Makes code self-documenting
+- Example: def process_text(text: str) -> List[str]:
+
+Testing:
+- Write unit tests for individual functions
+- Use pytest for test framework
+- Aim for >80% code coverage
+- Test edge cases and error conditions
+
+Performance:
+- Profile code before optimizing
+- Use appropriate data structures
+- Batch API calls when possible
+- Cache expensive computations
+
+Logging:
+- Use Python's logging module, not print
+- Set appropriate log levels
+- Include timestamps and context
+- Log to files in production
+
+Common Pitfalls to Avoid:
+- Mutable default arguments
+- Not closing files/connections
+- Circular imports
+- Ignoring exceptions
+- Not validating user input

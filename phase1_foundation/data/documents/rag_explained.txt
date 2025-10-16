@@ -1,0 +1,35 @@
+Understanding Retrieval-Augmented Generation (RAG)
+
+What is RAG?
+RAG combines information retrieval with language model generation. Instead of relying only on the model's training data, RAG first retrieves relevant information from a knowledge base, then uses that to generate accurate responses.
+
+How RAG Works:
+
+1. Document Ingestion
+Documents are split into smaller chunks (typically 500-1500 tokens). Each chunk becomes a vector embedding using models like OpenAI's text-embedding-3-small. These embeddings are stored in a vector database like Qdrant.
+
+2. Query Processing
+When you ask a question, it's also converted to a vector embedding. The system searches the vector database for chunks most similar to your query. The top 3-10 most relevant chunks are retrieved.
+
+3. Response Generation
+Retrieved chunks are combined with your question and sent to the language model (like GPT-4). The model generates a response grounded in the retrieved information.
+
+Advantages of RAG:
+- Reduces hallucinations by using real data
+- Can use up-to-date information without retraining
+- More cost-effective than fine-tuning
+- Allows source citation
+- Easy to update knowledge base
+
+Best Practices:
+1. Chunk Size: 800-1200 tokens works well
+2. Overlap: Use 100-200 token overlap between chunks
+3. Metadata: Store source, page numbers, dates
+4. Hybrid Search: Combine semantic and keyword search
+
+Common Use Cases:
+- Customer support chatbots
+- Internal knowledge base search
+- Document Q&A systems
+- Research assistants
+- Legal document analysis
